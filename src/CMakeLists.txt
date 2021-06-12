@@ -26,4 +26,4 @@ if (MSVC)
     set_target_properties(dfapi PROPERTIES COMPILE_FLAGS "/W4 /WX")
 endif (MSVC)
 
-target_link_libraries (dfapi TrustWalletCore TrezorCrypto protobuf ${PLATFORM_LIBS})
+target_link_libraries (dfapi wallet-core)

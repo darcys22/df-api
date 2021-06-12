@@ -1,5 +1,5 @@
 include_directories("../include")
-include_directories("../examples/common")
+#include_directories("../examples/common")
 
 file(GLOB test_SRC
     "*.h"
